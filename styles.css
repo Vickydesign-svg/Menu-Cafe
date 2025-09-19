@@ -1,0 +1,125 @@
+body{
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    margin-top: 0%;
+    margin-bottom: 5px;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+}
+
+.established{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-style: italic;
+    margin-top: 0px;
+    
+}
+
+h1, h2, p{
+    text-align: center;
+}
+
+h1, h2, img{
+    color:rgb(75, 3, 3)
+}
+
+.menu{
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    max-width: 500px;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -10px;
+    margin-bottom: 5px;
+}
+
+.item{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: 5px 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 16px;
+  color: rgb(75, 3, 3);
+}
+
+.dots {
+  flex: 1;
+  border-bottom: 2px dotted #fffdfd;
+  margin: 0 6px;
+
+}
+
+hr{
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bottom-line{
+    margin-top: 25px;
+}
+
+.dessert, .flavor{
+    text-align: left;
+    margin: 0;
+    padding-right: 10px;
+  
+}
+
+.price{
+    white-space: nowrap;
+    margin: 0;
+    text-align: left;
+}
+
+footer{
+    font-size: 14px;
+    
+}
+
+a{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:visited{
+    color:black;
+    text-decoration: none;
+}
+
+a:hover{
+    color:brown;
+    text-decoration: underline;
+}
+
+a:active{
+  color: brown;
+ }
+
+ .address{
+    margin-bottom: 5px;
+ }
+
+
